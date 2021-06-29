@@ -1,0 +1,197 @@
+#firstsec{
+    background-color: #ff4c68;
+    color: #fff !important;
+}
+
+.container-fluid {
+    padding: 2% 10% 7%;
+    
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    color: #fff;
+
+}
+h3{
+    font-family: "Montserrat";
+    color: black;
+    line-height: 1.5;
+    font-size: 2rem;
+}
+h6{
+    font-family: "Montserrat";
+    color: black;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+h5{
+    display: inline-block;
+    color: #fff;
+}
+h2{
+        font-family: 'Montserrat';
+        font-size: 3.5rem;
+        font-weight: bold;
+        line-height: 1.5;
+        color: #fff;
+}
+
+body {
+    font-family: 'Montserrat-Bold';
+    text-align: center;
+}
+
+p{
+    color: black;
+}
+
+.navbar{
+    padding: 0 0 3.5rem;
+}
+
+
+.navbar-brand{
+    font-family: 'monospace';
+    color: #fff !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 2rem 2rem;   
+}
+.nav-link {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: bold;
+  }
+
+.dwnldbtn{
+    margin: 5% 3% 5% 0;
+  }
+  
+
+.iphone-img {
+    width: 22%;
+    position: absolute;
+    right: 30%;
+    transform: rotate(25deg);
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 10%;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+#secondsec{  
+    z-index: 1 !important;
+    padding: 0% 15%;
+    position: relative;
+    line-height: 1.5;
+    text-align: center !important;
+ 
+}
+.feature{
+    background-color:#fff;
+    padding : 12% 8%;
+    
+}
+#thirdsec{
+    background-color: #f85b73;
+    line-height: 1.5;
+}
+.carousel{
+    padding: 3% 5%;
+}
+.cortext{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 1% 10%;
+
+}
+.corimg{
+    border-radius: 50%;
+    padding : 0% 3%;
+    width : 15%;
+}
+.corbrands{
+    padding : 2% 8%;
+}
+.corbrand{
+    width: 20%;
+    padding : 3% 2%;
+}
+#fourthsec{
+    background-color: #fff;
+    line-height: 1.5;
+    padding: 0% 15% 3%;
+}
+.text1{
+    padding: 7% 0% 1%;
+    font-weight: bolder;
+}
+.card{
+    margin : 10% 5%;
+    padding : 0% 0% 3%;
+}
+.dogvar{
+    font-size : 1.7rem;
+    font-weight: bolder;
+    padding : 3%;
+}
+.cost{
+    font-size : 1.5rem;
+    font-weight: bolder;
+
+}
+#footer{
+    background-color: cornsilk;
+    line-height: 1.5;
+    padding: 2% 15%;
+}
+.contactspace{
+    padding : 10% 3% 5%;
+}
+.end{
+    padding : 5% 2% 1%;
+}
+
+
+
+@media(max-width: 1028px) {
+    #firstsec{
+      text-align: center !important;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .nav-item {
+        padding: 0.5rem 2rem;   
+    }
+    .iphone-img {
+      position: static;
+      transform: rotate(0);
+      width : 50%;
+    }
+    .feature{
+        background-color:#fff;
+        padding : 5% 5% 2%;
+        
+    }
+    .icon {
+        margin-bottom: 5%;
+    }
+    .corimg{
+        padding : 3% 3% 3%;
+
+    }
+
+  }
